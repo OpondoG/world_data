@@ -10,10 +10,7 @@ const getCountryInfoFromApi = (country) => async (dispatch) => {
 
   data.forEach((country) => {
     countryInfo.push({
-      official: country.name.official,
-      capital: country.capital[0],
-      region: country.region,
-      timezone: country.timezones[0],
+      countryName: country.name.common,
       flag: country.flags.svg,
       population: country.population,
       area: country.area,
