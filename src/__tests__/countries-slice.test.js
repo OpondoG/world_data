@@ -1,4 +1,4 @@
-import { getCountries } from '../redux/countries-slice';
+import { getCountries, getCountryInfo } from '../redux/countries-slice';
 
 describe('Test Reducers', () => {
   test('Get Countries', () => {
@@ -10,12 +10,12 @@ describe('Test Reducers', () => {
   });
 
   test('Get Country information', () => {
-    const obj = { payload: { country: 'EG' }, type: 'country/getCountries' };
+    const obj = { payload: { country: 'EG' }, type: 'country/getCountryInfo' };
 
     expect(
-      getCountries(
+      getCountryInfo(
         { country: 'EG' },
-        { type: 'country/getCountries', payload: [] },
+        { type: 'country/getCountryInfo', payload: [] },
       ),
     ).toEqual(obj);
   });
