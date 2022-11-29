@@ -17,7 +17,7 @@ const CountryInfo = () => {
 
   return (
     <>
-      {state.length && (
+       {state.length > 0 && (
         <section className={classes.detailsSection}>
           <div className={classes.detailsTop}>
             <img src={state[0].flag} alt="flag" />
@@ -29,8 +29,8 @@ const CountryInfo = () => {
           <ul className={classes.detailsBottom}>
           <li>
               <span> 🎌 Official Name: </span>
-              <span>{state[0].official}</span>
-            </li>
+            <span>{state[0].official}</span>
+          </li>
             <li>
               <span> 🌆 Capital: </span>
               <span>{state[0].capital}</span>
