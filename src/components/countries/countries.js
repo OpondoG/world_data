@@ -5,7 +5,6 @@ import classes from './countries.module.css';
 
 const Countries = ({ countries }) => {
   const [input, setInput] = useState('');
-
   const filteredData = countries.filter((country) => {
     const data = Object.keys(country).some((key) => {
       const res = country[key].toLowerCase().includes(input.toLowerCase());
@@ -13,7 +12,6 @@ const Countries = ({ countries }) => {
     });
     return data;
   });
-
   return (
     <section>
       <input
@@ -24,7 +22,6 @@ const Countries = ({ countries }) => {
         onChange={(e) => setInput(e.target.value)}
         required
       />
-
       <ul className={classes.listContainer}>
         {filteredData.map((country) => (
           <CountriesList
@@ -37,7 +34,6 @@ const Countries = ({ countries }) => {
     </section>
   );
 };
-
 Countries.propTypes = {
   countries: PropTypes.arrayOf.isRequired,
 };
