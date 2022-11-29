@@ -1,21 +1,21 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { getCountries } from './countries-slice';
 
-const countriesSlice = createSlice({
-  name: 'country',
-  initialState: {
-    continent: '',
-    countriesData: [],
-  },
-  reducers: {
-    getContinent(state, action) {
-      state.continent = action.payload;
-    },
-    getCountriesData(state, action) {
-      state.getCountriesData.push(...action.payload);
-    },
-  },
-});
+const getCountriesFromApi = () => async (dispatch) => {
+  const response = await fetch('https://restcountries.com/v3.1/all');
+  const data = await response.json();
 
-export const { getContinent, getCountriesList } = countriesSlice.actions;
+  const countriesData = [];
 
-export default countriesSlice.reducer;
+  data.forEach((country) => {
+    countriesData.push({
+      countryName: country.name.common,
+      area: country.area,
+      flag: country.flags.svg,
+      population: country.population,
+    });
+  });
+
+  dispatch(getCountries(countriesData));
+};
+
+export default getCountriesFromApi;
