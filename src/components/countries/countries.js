@@ -35,7 +35,7 @@ const Countries = ({ countries }) => {
   );
 };
 Countries.propTypes = {
-  countries: PropTypes.arrayOf.isRequired,
+  countries: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
 };
 
 export default Countries;

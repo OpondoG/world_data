@@ -5,6 +5,7 @@ const countriesSlice = createSlice({
   initialState: {
     countries: [],
     countryInfo: [],
+    continents: [],
   },
   reducers: {
     getCountries(state, action) {
@@ -13,9 +14,12 @@ const countriesSlice = createSlice({
     getCountryInfo(state, action) {
       state.countryInfo.push(...action.payload);
     },
+    getContinent(state, action) {
+      state.continents.push(...action.payload);
+    },
   },
 });
 
-export const { getCountryInfo, getCountries } = countriesSlice.actions;
+export const { getCountryInfo, getCountries, getContinent } = countriesSlice.actions;
 
 export default countriesSlice.reducer;
