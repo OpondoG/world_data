@@ -11,9 +11,9 @@
   --bg-dark: #4063a5;
   --bg-dark-2: #5478b9;
   --bg-light: #5f93f1;
+}
 
-  body {
-    background-color: var(--bg-primary);
-    font-family: 'Lato', sans-serif;
-  }
+body {
+  background-color: var(--bg-primary);
+  font-family: 'Lato', sans-serif;
 }
