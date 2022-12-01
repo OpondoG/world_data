@@ -28,7 +28,7 @@ const Countries = ({ countries }) => {
       <ul className={classes.listContainer}>
         {filteredData.map((country) => (
           <CountriesList
-            key={country.countryName}
+            key={country.id}
             name={country.countryName}
             flag={country.flag}
           />
