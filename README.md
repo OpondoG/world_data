@@ -38,10 +38,11 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-> - **HTML/CSS & JS best practices:** Correct use of tags, elements, properties and syntax.
-- **GitHub flow:**  Correct use of Branches for deployment and features development.
-- **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
-- **REACT JS:** JS library used for the basic structure.
+- React.js
+- @redux/toolkit
+- react-router-dom
+- [REST COUNTRIES API](https://restcountries.com/)
+- CSS Modules
 
 <details>
   <summary>Client</summary>
@@ -54,19 +55,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[search_feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://worlddata.vercel.app/)
 
@@ -75,8 +70,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
