@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://worlddata.vercel.app/)
+- [Live Demo Link]()
 
 ## Description Video
  - [Video Link](https://drive.google.com/file/d/1NOyo86QLaiPH9RO0QsnW8xlQgpmFfH9P/view?usp=sharing)
