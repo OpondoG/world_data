@@ -2,10 +2,7 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Microverse-blueviolet" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>README Template</b></h3>
 
 </div>
 
@@ -41,10 +38,11 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-> - **HTML/CSS & JS best practices:** Correct use of tags, elements, properties and syntax.
-- **GitHub flow:**  Correct use of Branches for deployment and features development.
-- **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
-- **REACT JS:** JS library used for the basic structure.
+- React.js
+- @redux/toolkit
+- react-router-dom
+- [REST COUNTRIES API](https://restcountries.com/)
+- CSS Modules
 
 <details>
   <summary>Client</summary>
@@ -57,11 +55,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[search_feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,17 +63,16 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- [Live Demo Link](https://worlddata.vercel.app/)
 
-- [Live Demo Link]()
+## Description Video
+ - [Video Link](https://drive.google.com/file/d/1NOyo86QLaiPH9RO0QsnW8xlQgpmFfH9P/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -199,9 +192,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give me a hat tip ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
