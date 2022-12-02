@@ -66,7 +66,7 @@
 - [Live Demo Link](https://worlddata.vercel.app/)
 
 ## Description Video
- - [Video Link](https://drive.google.com/drive/folders/1LBE3DzrHghLDXSco6SjPUDxz-QDH60Ze?usp=sharing)
+ - [Video Link](https://drive.google.com/file/d/1NOyo86QLaiPH9RO0QsnW8xlQgpmFfH9P/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
